@@ -1,0 +1,79 @@
+body {
+  background-color: #e1f8fa;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  color: #343536;
+  text-align: center;
+}
+.container {
+  background-color: white;
+  width: 400px;
+  padding: 20px;
+  margin-left: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 1px 8px 8px #9b9d9e;
+  border-radius: 2px;
+}
+.sign-in {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: .75rem;
+    text-align: center;
+    margin-top: 5px;
+    color: gray
+}
+input[type=text], select {
+    width: 80%;
+    padding: 5px 20px;
+    margin-right: 25px;
+    margin-left: 40px;
+    margin-top: 25px;
+    display: inline-block;
+    border-bottom: 1px solid #ccc;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: .80rem;
+    text-align: left;
+    align-content: center;
+    z-index: 1;
+  }
+  #forgot {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: .75rem;
+      color: gray;
+      text-decoration: none;
+      position: relative;
+      float: right;
+      margin-top: -18px;
+      margin-right: 35px;
+      z-index: 3;
+  }
+.button {
+    background-color: #2baced;
+    border: none;
+    width: 80%;
+    height: 40px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .80rem;
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+#account {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .5rem;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 140px;
+    margin-top: 25px;
+}
